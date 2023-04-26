@@ -1,3 +1,15 @@
+@font-face {
+    font-family: PTSans-Bold;
+    src: local("PTSans-Bold"),
+    url("fonts/PTSans/PTSans-Bold.ttf")
+}
+
+@font-face {
+    font-family: PTSans-Regular;
+    src: local("PTSans-Regular"),
+    url("fonts/PTSans/PTSans-Regular.ttf")
+}
+
 body {
     
 }
@@ -7,5 +19,12 @@ body {
 }
 
 h1 {
+    font-family: PTSans-Bold;
+    font-weight: bold;
+}
+
+.text-banniere {
+    font-family: PTSans-Regular;
+    font-size: 20px;
     font-weight: bold;
 }
