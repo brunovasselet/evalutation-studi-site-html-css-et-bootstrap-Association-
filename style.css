@@ -56,12 +56,12 @@ h1, .text-banniere {
 }
 
 .forest {
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .card-presentation {
     max-width: 800px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .presentation {
     background-color: #D5F5E3;
@@ -79,7 +79,7 @@ h1, .text-banniere {
 }
 
 .image {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .img1, .img2 {
