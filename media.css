@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px) {
+    .forest {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .card-presentation {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .image {
+        margin-top: 40px;
+    }
+}
