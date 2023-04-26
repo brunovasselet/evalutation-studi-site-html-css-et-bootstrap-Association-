@@ -1,4 +1,10 @@
 @font-face {
+    font-family: Carlito-Bold;
+    src: local("Carlito"),
+    url("fonts/Carlito/Carlito-Bold.ttf")
+}
+
+@font-face {
     font-family: PTSans-Bold;
     src: local("PTSans-Bold"),
     url("fonts/PTSans/PTSans-Bold.ttf")
@@ -12,6 +18,14 @@
 
 body {
     background-image: url(img/background.jpg);
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-link {
+    font-family: Carlito-Bold;
 }
 
 .positionnement {
