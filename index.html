@@ -12,7 +12,7 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Twelfth navbar example">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img width="100px" src="icons/Greenpeace_logo.png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,26 +30,32 @@
         </div>
       </nav>
 
-      <div class="p-4 p-md-5 mb-4 banniere">
-        <div class="col-md-6 px-0">
-          <h1 class="display-4 fst-italic">Greenpeace</h1>
-          <p class="lead my-3 text-banniere">Protéger notre planète contre le danger du réchauffement climatique.</p>
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative banniere">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h1 class="mb-0 my-4">Greenpeace</h1>
+          <p class="card-text mb-auto my-2 text-banniere">Protéger notre planète contre le danger du réchauffement climatique.</p>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+            <img class="img-banniere" height="230px" src="img/greenpeace.jpg">
         </div>
       </div>
 
-      <main>
-        <article>
+
+      <div class="card mx-auto card-presentation" style="background: none; border: none;">
+        <div class="card-body rounded-4 presentation">
             <div class="text-center">
-            <h2 class="presentation-title">
-                Qu'est-ce que Greenpeace ?
-            </h2>
-            <p class="presentation-text">Greenpeace est une organisation non gouvernementale internationale (ONGI)<br>
-            de protection de l'environnement présente dans plus de 55 pays à travers le monde.<br>
-            Fondée en 1971 par les militants du mouvement Don't Make a Wave Committee visant à<br>
-             s'opposer aux essais nucléaires aux États-Unis,</p>
-            </div>
-        </article>
-      </main>
+                <h2 class="presentation-title">
+                    Qu'est-ce que Greenpeace ?
+                </h2>
+                <p class="presentation-text">Greenpeace est une organisation non gouvernementale internationale (ONGI)
+                de protection de l'environnement présente dans plus de 55 pays à travers le monde.
+                Fondée en 1971 par les militants du mouvement Don't Make a Wave Committee visant à
+                s'opposer aux essais nucléaires aux États-Unis, l'organisation Greenpeace est un
+                groupe de plaidoyer luttant contre ce qu'elle estime être les plus grandes menaces
+                pour l'environnement et la biodiversité sur la planète.
+                </div>
+        </div>
+      </div>
 
 
       <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

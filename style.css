@@ -11,11 +11,15 @@
 }
 
 body {
-    
+    background-image: url(img/background.jpg);
+}
+
+.positionnement {
+    width: 2300px;
 }
 
 .banniere {
-    background-color: #239B56;
+    background-color: #1D8348;
 }
 
 h1 {
@@ -23,8 +27,30 @@ h1 {
     font-weight: bold;
 }
 
-.text-banniere {
+h1, .text-banniere {
+    color: #FFFFFF;
+}
+
+.text-banniere, .presentation-text {
     font-family: PTSans-Regular;
+}
+
+.text-banniere {
     font-size: 20px;
     font-weight: bold;
+}
+
+.card-presentation {
+    max-width: 800px;
+    margin-top: 100px;
+}
+.presentation {
+    background-color: #D5F5E3;
+}
+
+.presentation-text {
+    margin-left: 25px;
+    text-align: center;
+    font-size: 18px;
+    max-width: 700px;
 }
